@@ -1,5 +1,6 @@
 # Telegram to VK
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0795527b5bc44747a68630fb0eb4cb32)](https://app.codacy.com/gh/DiSonDS/tg2vk?utm_source=github.com&utm_medium=referral&utm_content=DiSonDS/tg2vk&utm_campaign=Badge_Grade)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
