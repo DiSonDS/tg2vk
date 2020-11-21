@@ -61,7 +61,7 @@ async def _(msg, ctx):
         elif msg_raw.get("document"):
             attach_text = f"[doc - \"{msg_raw['document']['file_name']}\"]"
         elif msg_raw.get("sticker"):
-            attach_text = msg_raw["sticker"]["emoji"]
+            attach_text = f"[sticker - \"{msg_raw['sticker']['emoji']}\"]"
         elif msg_raw.get("location"):
             lat = msg_raw["location"]["latitude"]
             long = msg_raw["location"]["longitude"]
