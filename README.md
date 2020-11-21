@@ -35,7 +35,7 @@ pip3 install -r requirements.txt
 python3 run.py
 ```
 5.  Add bots to the necessary Telegram chat and to the necessary VK chat
-6.  Use `/get_chat_id` in Telegram and VK chat to find out the id of chats and enter them in `configuration.json`
+6.  Use `/get_chat_id` command in Telegram and VK chat to find out the id of chats and enter them in `configuration.json`
 ```json
 "tg_chat_id": ENTER_YOUR_TELEGRAM_CHAT_ID,
 "vk_chat_id": ENTER_YOUR_VK_CHAT_ID,
@@ -46,3 +46,8 @@ python3 run.py
 ```sh
 python3 run.py
 ```
+
+## TODO
+-   [ ] Forward messages from multiple Telegram chats to one VK chat
+-   [ ] Forward messages from VK chat to Telegram chat
+-   [ ] Personal emoji in the message header ([pymojihash](https://github.com/kawa-kokosowa/pymojihash))
