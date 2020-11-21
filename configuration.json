@@ -2,6 +2,6 @@
   "tg_token" : "",
   "vk_token": "",
 
-  "tg_chat_id": "",
-  "vk_chat_id": ""
+  "tg_chat_id": 0,
+  "vk_chat_id": 0
 }

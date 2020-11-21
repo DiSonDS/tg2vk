@@ -38,7 +38,7 @@ async def _(msg, ctx):
 
     if (
         ctx.backend.get_identity() == "telegram"
-        and msg.receiver_id in ctx.config["tg_chat_id"]
+        and msg.receiver_id == ctx.config["tg_chat_id"]
     ):
         # get vk backend
         vk_backend = ctx.app.get_backends()[1]
@@ -100,7 +100,7 @@ async def _(msg, ctx):
 
     if (
         ctx.backend.get_identity() == "telegram"
-        and msg.receiver_id in ctx.config["tg_chat_id"]
+        and msg.receiver_id == ctx.config["tg_chat_id"]
     ):
         # get vk backend
         vk_backend = ctx.app.get_backends()[1]
