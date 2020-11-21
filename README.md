@@ -49,6 +49,6 @@ python3 run.py
 ```
 
 ## TODO
--   [ ] Forward messages from multiple Telegram chats to one VK chat
--   [ ] Forward messages from VK chat to Telegram chat
--   [ ] Personal emoji in the message header ([pymojihash](https://github.com/kawa-kokosowa/pymojihash))
+*   [ ] Forward messages from multiple Telegram chats to one VK chat
+*   [ ] Forward messages from VK chat to Telegram chat
+*   [ ] Personal emoji in the message header ([pymojihash](https://github.com/kawa-kokosowa/pymojihash))
