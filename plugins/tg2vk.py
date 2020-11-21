@@ -68,7 +68,6 @@ async def _(msg, ctx):
             return await vk_backend.request(
                 "messages.send",
                 chat_id=chat_id,
-                message=f"{lat}, {long}",
                 lat=lat,
                 long=long,
                 random_id=random.randint(1, 99999),
