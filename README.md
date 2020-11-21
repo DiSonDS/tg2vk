@@ -5,6 +5,8 @@
 
 Forwards messages from the Telegram chat to the VK chat
 
+![Screenshot](screenshot.png)
+
 ## Setup
 
 ### Prerequisites
@@ -25,7 +27,7 @@ pip3 install -r requirements.txt
 ```
 3.  Enter your Telegram and VK access token in `configuration.json`
 ```json
-"tg_token" : "ENTER YOUR TELEGRAM ACCESS TOKEN",
+"tg_token": "ENTER YOUR TELEGRAM ACCESS TOKEN",
 "vk_token": "ENTER YOUR VK ACCESS TOKEN",
 ```
 4.  Start bot
@@ -35,7 +37,7 @@ python3 run.py
 5.  Add bots to the necessary Telegram chat and to the necessary VK chat
 6.  Use `/get_chat_id` in Telegram and VK chat to find out the id of chats and enter them in `configuration.json`
 ```json
-"tg_chat_id" : ENTER_YOUR_TELEGRAM_CHAT_ID,
+"tg_chat_id": ENTER_YOUR_TELEGRAM_CHAT_ID,
 "vk_chat_id": ENTER_YOUR_VK_CHAT_ID,
 ```
 
